@@ -1,0 +1,7 @@
+Class-02:
+
+TCRT-5000
+
+Transmitter [Blue part]= that emits Infra red light;
+Receiver:[Black part]:  A kind of light ,depended resistor that only change its resistance for IR light;
+Ardiuno can't measure current or resistance ,only can voltage.
