@@ -5,3 +5,22 @@ TCRT-5000
 Transmitter [Blue part]= that emits Infra red light;
 Receiver:[Black part]:  A kind of light ,depended resistor that only change its resistance for IR light;
 Ardiuno can't measure current or resistance ,only can voltage.
+
+Code part for Analog signal:
+
+
+int x;
+Void setup()
+{
+Serial.begin(9600);//ctrl+shift+m'
+pinMode(13,OUTPUT);
+    }
+void loop()
+{
+    x= analogRead(A7);
+Serial.print(x);
+Serial.print(" ");
+if(x>500)
+digitalWrite(13,HIGH);
+else
+digitalWrite(13,LOW);
