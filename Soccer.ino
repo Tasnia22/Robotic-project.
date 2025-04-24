@@ -1,8 +1,8 @@
 
-int relay1 = 2;     //motor1
-int relay2 = 3;    //motor1
-int relay3 = 4;   //motor2
-int relay4 = 5;   //motor2
+int relay1 = 4;     //motor1
+int relay2 = 5;    //motor1
+int relay3 = 6;   //motor2
+int relay4 = 7;   //motor2
 int Speed1 = 9; //speed
 int Speed2 = 10; //speed
 
